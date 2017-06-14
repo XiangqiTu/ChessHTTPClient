@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25919111EEFBE9B008FE3CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D25919101EEFBE9B008FE3CE /* main.m */; };
+		D25919141EEFBE9B008FE3CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D25919131EEFBE9B008FE3CE /* AppDelegate.m */; };
+		D259191C1EEFBE9B008FE3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259191B1EEFBE9B008FE3CE /* Assets.xcassets */; };
+		D2B872381EEFDC2C0021717E /* ChessHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B872371EEFDC2C0021717E /* ChessHTTPClient.m */; };
+		D2B872481EEFDC650021717E /* ChessHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B8723C1EEFDC650021717E /* ChessHTTPSessionManager.m */; };
+		D2B872491EEFDC650021717E /* ChessNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B8723F1EEFDC650021717E /* ChessNetworkReachabilityManager.m */; };
+		D2B8724A1EEFDC650021717E /* ChessSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B872411EEFDC650021717E /* ChessSecurityPolicy.m */; };
+		D2B8724B1EEFDC650021717E /* ChessURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B872431EEFDC650021717E /* ChessURLRequestSerialization.m */; };
+		D2B8724C1EEFDC650021717E /* ChessURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B872451EEFDC650021717E /* ChessURLResponseSerialization.m */; };
+		D2B8724D1EEFDC650021717E /* ChessURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B872471EEFDC650021717E /* ChessURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D259190C1EEFBE9B008FE3CE /* ChessHTTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessHTTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25919101EEFBE9B008FE3CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D25919121EEFBE9B008FE3CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D25919131EEFBE9B008FE3CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D259191B1EEFBE9B008FE3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25919201EEFBE9B008FE3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B872361EEFDC2C0021717E /* ChessHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessHTTPClient.h; sourceTree = "<group>"; };
+		D2B872371EEFDC2C0021717E /* ChessHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessHTTPClient.m; sourceTree = "<group>"; };
+		D2B8723B1EEFDC650021717E /* ChessHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessHTTPSessionManager.h; sourceTree = "<group>"; };
+		D2B8723C1EEFDC650021717E /* ChessHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessHTTPSessionManager.m; sourceTree = "<group>"; };
+		D2B8723D1EEFDC650021717E /* ChessNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessNetworking.h; sourceTree = "<group>"; };
+		D2B8723E1EEFDC650021717E /* ChessNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D2B8723F1EEFDC650021717E /* ChessNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		D2B872401EEFDC650021717E /* ChessSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessSecurityPolicy.h; sourceTree = "<group>"; };
+		D2B872411EEFDC650021717E /* ChessSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessSecurityPolicy.m; sourceTree = "<group>"; };
+		D2B872421EEFDC650021717E /* ChessURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessURLRequestSerialization.h; sourceTree = "<group>"; };
+		D2B872431EEFDC650021717E /* ChessURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessURLRequestSerialization.m; sourceTree = "<group>"; };
+		D2B872441EEFDC650021717E /* ChessURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessURLResponseSerialization.h; sourceTree = "<group>"; };
+		D2B872451EEFDC650021717E /* ChessURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessURLResponseSerialization.m; sourceTree = "<group>"; };
+		D2B872461EEFDC650021717E /* ChessURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessURLSessionManager.h; sourceTree = "<group>"; };
+		D2B872471EEFDC650021717E /* ChessURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25919091EEFBE9B008FE3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25919031EEFBE9B008FE3CE = {
+			isa = PBXGroup;
+			children = (
+				D259190E1EEFBE9B008FE3CE /* ChessHTTPClient */,
+				D259190D1EEFBE9B008FE3CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D259190D1EEFBE9B008FE3CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D259190C1EEFBE9B008FE3CE /* ChessHTTPClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D259190E1EEFBE9B008FE3CE /* ChessHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				D2B872351EEFDC110021717E /* ChessHTTPClient */,
+				D25919121EEFBE9B008FE3CE /* AppDelegate.h */,
+				D25919131EEFBE9B008FE3CE /* AppDelegate.m */,
+				D259191B1EEFBE9B008FE3CE /* Assets.xcassets */,
+				D25919201EEFBE9B008FE3CE /* Info.plist */,
+				D259190F1EEFBE9B008FE3CE /* Supporting Files */,
+			);
+			path = ChessHTTPClient;
+			sourceTree = "<group>";
+		};
+		D259190F1EEFBE9B008FE3CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D25919101EEFBE9B008FE3CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2B872351EEFDC110021717E /* ChessHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				D2B872361EEFDC2C0021717E /* ChessHTTPClient.h */,
+				D2B872371EEFDC2C0021717E /* ChessHTTPClient.m */,
+				D2B872391EEFDC650021717E /* Vender */,
+			);
+			path = ChessHTTPClient;
+			sourceTree = "<group>";
+		};
+		D2B872391EEFDC650021717E /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8723A1EEFDC650021717E /* AFNetworking */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		D2B8723A1EEFDC650021717E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8723B1EEFDC650021717E /* ChessHTTPSessionManager.h */,
+				D2B8723C1EEFDC650021717E /* ChessHTTPSessionManager.m */,
+				D2B8723D1EEFDC650021717E /* ChessNetworking.h */,
+				D2B8723E1EEFDC650021717E /* ChessNetworkReachabilityManager.h */,
+				D2B8723F1EEFDC650021717E /* ChessNetworkReachabilityManager.m */,
+				D2B872401EEFDC650021717E /* ChessSecurityPolicy.h */,
+				D2B872411EEFDC650021717E /* ChessSecurityPolicy.m */,
+				D2B872421EEFDC650021717E /* ChessURLRequestSerialization.h */,
+				D2B872431EEFDC650021717E /* ChessURLRequestSerialization.m */,
+				D2B872441EEFDC650021717E /* ChessURLResponseSerialization.h */,
+				D2B872451EEFDC650021717E /* ChessURLResponseSerialization.m */,
+				D2B872461EEFDC650021717E /* ChessURLSessionManager.h */,
+				D2B872471EEFDC650021717E /* ChessURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D259190B1EEFBE9B008FE3CE /* ChessHTTPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25919231EEFBE9B008FE3CE /* Build configuration list for PBXNativeTarget "ChessHTTPClient" */;
+			buildPhases = (
+				D25919081EEFBE9B008FE3CE /* Sources */,
+				D25919091EEFBE9B008FE3CE /* Frameworks */,
+				D259190A1EEFBE9B008FE3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessHTTPClient;
+			productName = ChessHTTPClient;
+			productReference = D259190C1EEFBE9B008FE3CE /* ChessHTTPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25919041EEFBE9B008FE3CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Xiangqi;
+				TargetAttributes = {
+					D259190B1EEFBE9B008FE3CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D25919071EEFBE9B008FE3CE /* Build configuration list for PBXProject "ChessHTTPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25919031EEFBE9B008FE3CE;
+			productRefGroup = D259190D1EEFBE9B008FE3CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D259190B1EEFBE9B008FE3CE /* ChessHTTPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D259190A1EEFBE9B008FE3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D259191C1EEFBE9B008FE3CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25919081EEFBE9B008FE3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8724C1EEFDC650021717E /* ChessURLResponseSerialization.m in Sources */,
+				D2B872491EEFDC650021717E /* ChessNetworkReachabilityManager.m in Sources */,
+				D25919141EEFBE9B008FE3CE /* AppDelegate.m in Sources */,
+				D2B872481EEFDC650021717E /* ChessHTTPSessionManager.m in Sources */,
+				D2B872381EEFDC2C0021717E /* ChessHTTPClient.m in Sources */,
+				D2B8724D1EEFDC650021717E /* ChessURLSessionManager.m in Sources */,
+				D2B8724A1EEFDC650021717E /* ChessSecurityPolicy.m in Sources */,
+				D2B8724B1EEFDC650021717E /* ChessURLRequestSerialization.m in Sources */,
+				D25919111EEFBE9B008FE3CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D25919211EEFBE9B008FE3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D25919221EEFBE9B008FE3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25919241EEFBE9B008FE3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChessHTTPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xiangqi.ChessHTTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D25919251EEFBE9B008FE3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChessHTTPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xiangqi.ChessHTTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25919071EEFBE9B008FE3CE /* Build configuration list for PBXProject "ChessHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25919211EEFBE9B008FE3CE /* Debug */,
+				D25919221EEFBE9B008FE3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25919231EEFBE9B008FE3CE /* Build configuration list for PBXNativeTarget "ChessHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25919241EEFBE9B008FE3CE /* Debug */,
+				D25919251EEFBE9B008FE3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25919041EEFBE9B008FE3CE /* Project object */;
+}
